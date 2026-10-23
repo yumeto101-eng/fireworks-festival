@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+    <!-- 架空サイト -->
+    <meta name="robots" content="nofollow, noindex" />
+    <meta
+      name="description"
+      content="このサイトはWebサイト制作課題のために制作した、架空イベントの公式サイト風デモサイトです。"
+    />
+    <title>発表資料｜課題制作用 架空イベントサイト</title>
+
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body id="top">
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="logo">
+          <a
+            href="../index.html"
+            aria-label="星空花火フェスティバル2026 トップページ"
+          >
+            <span class="logo-symbol" aria-hidden="true">✦</span>
+
+            <span class="logo-title">
+              <span class="logo-main">星空花火</span>
+              <span class="logo-sub">フェスティバル</span>
+            </span>
+
+            <span class="logo-year">2026</span>
+          </a>
+        </h1>
+        <ul class="pc-nav" aria-label="主要メニュー">
+          <li>
+            <a href="sponsor.html">
+              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+              <span>協賛</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="ticket.html">
+              <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+              <span>チケット</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="demise.html">
+              <i class="fa-solid fa-store" aria-hidden="true"></i>
+              <span>出店</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <button
+      class="hamburger js-hamburger"
+      type="button"
+      aria-label="メニューを開く"
+      aria-expanded="false"
+      aria-controls="global-nav"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="global-nav" class="nav js-nav" aria-label="メインメニュー">
+      <p class="nav-heading">QUICK LINKS</p>
+
+      <ul class="nav-contact">
+        <li class="nav-home">
+          <a href="../index.html">
+            <i class="fa-solid fa-house" aria-hidden="true"></i>
+            <span>トップページ</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="sponsor.html">
+            <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+            <span>協賛</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="ticket.html">
+            <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+            <span>チケット</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="demise.html">
+            <i class="fa-solid fa-store" aria-hidden="true"></i>
+            <span>出店</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>お問い合わせ</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="access.html">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+            <span>アクセス</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="nav-heading">PRESENTATION</p>
+
+      <ul class="nav-event">
+        <li><a href="#purpose">制作目的</a></li>
+        <li><a href="#target">ターゲット</a></li>
+        <li><a href="#site">サイト構成</a></li>
+        <li><a href="#way">導線設計</a></li>
+        <li><a href="#code">コード</a></li>
+        <li><a href="#grow">改善点</a></li>
+        <li><a href="#summary">まとめ</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <!-- メインビジュアル -->
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-subtitle">Presentation</p>
+          <h2>星空花火フェスティバル 2026 制作紹介</h2>
+
+          <div class="page-second">
+            <a href="sponsor.html">【 協賛応募ページ 】</a>
+            <a href="demise.html">【 出店応募ページ 】</a>
+            <a href="ticket.html">【 チケット購入 】</a>
+            <a href="../index.html">【 トップページ 】</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="purpose" class="section">
+        <h2 class="section-title">Purpose</h2>
+        <p class="section-subtitle">制作目的</p>
+
+        <div class="card-area">
+          <p>
+            このサイトは、架空の花火イベント「星空花火フェスティバル2026」の公式サイトを想定して制作しました。<br />
+            単にイベント情報を掲載するだけでなく、来場者への情報発信、協賛企業の募集、出店希望者の応募、チケット購入への導線を分かりやすくすることを目的としています。<br />
+            特に今回は、協賛募集を重要な目的として設定し、地域企業にとって協賛するメリットが伝わるサイト構成を意識しました。
+          </p>
+        </div>
+      </section>
+
+      <section id="target" class="section dark-section">
+        <h2 class="section-title">Target</h2>
+        <p class="section-subtitle">想定ターゲット</p>
+
+        <div class="card-area">
+          <div class="card">
+            <h3>来場者</h3>
+            <p>
+              開催日時、会場、プログラム、出店内容、会場マップ、アクセス方法などを分かりやすく確認できる。
+            </p>
+          </div>
+          <div class="card">
+            <h3>企業</h3>
+            <p>
+              協賛のメリット、WEB掲載イメージ、会場内掲載イメージ、協賛プラン比較表、応募フォームを用意。
+            </p>
+          </div>
+          <div class="card">
+            <h3>事業者</h3>
+            <p>
+              出店カテゴリ、出店料、注意事項、応募フォームを用意し、出店までの流れをイメージしやすくする。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="site" class="section">
+        <h2 class="section-title">Site</h2>
+        <p class="section-subtitle">サイト構成</p>
+
+        <div class="presen-card-area">
+          <a href="../index.html" class="presen-card">
+            <i class="fa-solid fa-house"></i>
+            <h3>トップページ</h3>
+            <p>イベントの魅力や開催概要を紹介</p>
+          </a>
+          <a href="sponsor.html" class="presen-card">
+            <i class="fa-solid fa-handshake"></i>
+            <h3>協賛応募ページ</h3>
+            <p>協賛のメリットや応募フォームを掲載</p>
+          </a>
+          <a href="demise.html" class="presen-card">
+            <i class="fa-solid fa-store"></i>
+            <h3>出店応募ページ</h3>
+            <p>出店条件や応募方法をわかりやすく案内</p>
+          </a>
+          <a href="ticket.html" class="presen-card">
+            <i class="fa-solid fa-ticket"></i>
+            <h3>チケット購入ページ</h3>
+            <p>チケットの種類や購入方法をスムーズに案内</p>
+          </a>
+          <a href="stage-intro.html" class="presen-card">
+            <i class="fa-solid fa-microphone"></i>
+            <h3>出演者紹介ページ</h3>
+            <p>出演者の情報やプロフィールを紹介</p>
+          </a>
+          <a href="access.html" class="presen-card">
+            <i class="fa-solid fa-location-dot"></i>
+            <h3>アクセスページ</h3>
+            <p>会場アクセスや駐車場情報を地図とともに掲載</p>
+          </a>
+          <a href="contact.html" class="presen-card">
+            <i class="fa-solid fa-envelope"></i>
+            <h3>お問い合わせページ</h3>
+            <p>各種お問い合わせを受け付けるフォーム</p>
+          </a>
+          <a href="error-page.html" class="presen-card">
+            <i class="fa-solid fa-triangle-exclamation"></i>
+            <h3>エラーページ</h3>
+            <p>未実装機能であることを案内</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="way" class="section dark-section">
+        <h2 class="section-title">User Flow</h2>
+        <p class="section-subtitle">導線の設計</p>
+
+        <div class="flow-card-area">
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>来場者の導線</h3>
+              <p>
+                イベントに来場する人が、開催概要や当日の流れを確認しやすいようにする。
+              </p>
+              <p class="flow-note">
+                イベントの魅力を伝えた後、チケット購入やアクセス情報へ進みやすくする。
+              </p>
+            </div>
+            <div class="flow-route">
+              <span>トップ</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>チケット</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>アクセス</span>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>協賛企業の導線</h3>
+              <p>
+                協賛を検討している企業に、協賛するメリットが伝わるようにする。
+              </p>
+              <p class="flow-note">
+                掲載イメージやプラン比較を見せることで、協賛後のPR効果を想像しやすくする。
+              </p>
+            </div>
+            <div class="flow-route">
+              <span>トップ</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>協賛応募ページ</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>応募フォーム</span>
+            </div>
+          </div>
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>出店希望者の導線</h3>
+              <p>
+                出店を希望する店舗や事業者が、条件や応募方法を確認しやすいようにする。
+              </p>
+              <p class="flow-note">
+                出店カテゴリ、出店料、注意事項を整理し、応募までの流れをわかりやすくする。
+              </p>
+            </div>
+            <div class="flow-route">
+              <span>トップ</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>出店応募ページ</span>
+              <i class="fa-solid fa-arrow-right"></i>
+              <span>応募フォーム</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="code" class="section">
+        <h2 class="section-title">HTML / CSS</h2>
+        <p class="section-subtitle">HTML/CSSコードの工夫</p>
+
+        <div class="flow-card-area">
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>CSSの整理</h3>
+              <p>セクションごとにスタイルを分け、管理しやすい構造</p>
+            </div>
+            <div class="flow-route">
+              <span>section / dark-section</span>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>共通クラス</h3>
+              <p>
+                見出しやカードなど、共通で使用する要素はクラス化し、保守性を高める
+              </p>
+            </div>
+            <div class="flow-route">
+              <span>.section-title / card-area など</span>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>フォーム共通化</h3>
+              <p>フォームのレイアウトや入力項目を共通化し、統一感を持たせる</p>
+            </div>
+            <div class="flow-route">
+              <span>.form-grid / .form-item など</span>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>レスポンシブ対応</h3>
+              <p>
+                スマートフォンやタブレットでも快適に閲覧できるよう、レスポンシブ対応を実装
+              </p>
+            </div>
+            <div class="flow-route">
+              <span>@media / flex / grid</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="grow" class="section dark-section">
+        <h2 class="section-title">Grow</h2>
+        <p class="section-subtitle">改善点</p>
+
+        <div class="flow-card-area">
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>フォームの送信機能</h3>
+              <p>実際にフォームを送信できる機能の実装</p>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>チケット購入機能</h3>
+              <p>実際にチケットが買える決済機能の実装</p>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>お知らせ更新機能</h3>
+              <p>最新情報を簡単に更新できる仕組み</p>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>当日の案内情報</h3>
+              <p>シャトルバスやタイムテーブルなど当日の案内の充実</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="summary" class="section">
+        <h2 class="section-title">Summary</h2>
+        <p class="section-subtitle">まとめ</p>
+
+        <div class="flow-card-area">
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>目的に沿ったサイト設計</h3>
+              <p>
+                来場者・協賛企業・出店希望者それぞれの目的に合わせた情報設計と導線を意識してサイトを構成しました。
+              </p>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>統一感のあるデザイン</h3>
+              <p>
+                ネイビー×ゴールドの世界観を軸に、見やすく上品で、イベントの魅力が伝わるデザインに仕上げました。
+              </p>
+            </div>
+          </div>
+
+          <div class="flow-card">
+            <div class="flow-text">
+              <h3>コーディングの工夫</h3>
+              <p>
+                再利用性の高いCSS設計とレスポンシブ対応により、どのデバイスでも快適に閲覧できるサイトを目指しました。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 星空花火フェスティバル 2026</p>
+      <p class="footer-note">
+        このサイトはWebサイト制作課題のために制作した、架空イベントサイトです。
+      </p>
+    </footer>
+
+    <!-- ページトップボタン -->
+    <a href="#top" class="page-top-button" aria-label="ページトップへ戻る">
+      <img src="../images/page-top.png" alt="" />
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- slick jQuery -->
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

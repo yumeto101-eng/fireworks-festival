@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Noto+Serif+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- 架空サイト -->
+    <meta name="robots" content="nofollow, noindex" />
+    <meta
+      name="description"
+      content="このサイトはWebサイト制作課題のために制作した、架空イベントの公式サイト風デモサイトです。"
+    />
+    <title>星空花火フェスティバル 2026｜課題制作用 架空イベントサイト</title>
+
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="top" class="home">
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="logo">
+          <a
+            href="index.html"
+            aria-label="星空花火フェスティバル2026 トップページ"
+          >
+            <span class="logo-symbol" aria-hidden="true">✦</span>
+
+            <span class="logo-title">
+              <span class="logo-main">星空花火</span>
+              <span class="logo-sub">フェスティバル</span>
+            </span>
+
+            <span class="logo-year">2026</span>
+          </a>
+        </h1>
+        <ul class="pc-nav" aria-label="主要メニュー">
+          <li>
+            <a href="html/sponsor.html">
+              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+              <span>協賛</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="html/ticket.html">
+              <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+              <span>チケット</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="html/demise.html">
+              <i class="fa-solid fa-store" aria-hidden="true"></i>
+              <span>出店</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <button
+      class="hamburger js-hamburger"
+      type="button"
+      aria-label="メニューを開く"
+      aria-expanded="false"
+      aria-controls="global-nav"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="global-nav" class="nav js-nav" aria-label="メインメニュー">
+      <p class="nav-heading">QUICK LINKS</p>
+
+      <ul class="nav-contact">
+        <li>
+          <a href="html/sponsor.html">
+            <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+            <span>協賛</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="html/ticket.html">
+            <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+            <span>チケット</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="html/demise.html">
+            <i class="fa-solid fa-store" aria-hidden="true"></i>
+            <span>出店</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="html/contact.html">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>お問い合わせ</span>
+          </a>
+        </li>
+        <li>
+          <a href="html/access.html">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+            <span>アクセス</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="html/presentation.html">
+            <i class="fa-solid fa-person-chalkboard" aria-hidden="true"></i>
+            <span>HTML/CSS</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="nav-heading">EVENT INFO</p>
+
+      <ul class="nav-event">
+        <li><a href="#news">お知らせ</a></li>
+        <li><a href="#program">プログラム</a></li>
+        <li><a href="#stage">ステージ</a></li>
+        <li><a href="#shop">出店内容</a></li>
+        <li><a href="#map">会場内マップ</a></li>
+        <li><a href="#access">アクセス</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- メインビジュアル -->
+      <section class="hero">
+        <div class="hero-content">
+          <p class="hero-subtitle">Starry Sky Festival</p>
+          <h2>星空花火フェスティバル 2026</h2>
+          <p class="hero-text">家族で楽しむ、夏の夜空の特別な時間</p>
+
+          <div class="event-info">
+            <p>開催日時：2026年8月15日(土)10:00～20:00</p>
+            <p>開催場所：星空公園 特設会場</p>
+          </div>
+
+          <div class="page-second">
+            <a class="kyousan" href="html/sponsor.html">【 協賛応募ページ 】</a>
+            <a href="html/demise.html">【 出店応募ページ 】</a>
+            <a href="html/ticket.html">【 チケット購入 】</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section dark-section slider-section">
+        <h2 class="section-title">Past Fireworks</h2>
+        <p class="section-subtitle">夜空を彩った、これまでの打ち上げ花火</p>
+        <div class="slider">
+          <ul class="autoplay">
+            <li>
+              <a href="images/hanabi01.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi01.jpg" alt="hanabi01" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi02.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi02.jpg" alt="hanabi02" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi03.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi03.jpg" alt="hanabi03" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi04.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi04.jpg" alt="hanabi04" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi05.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi05.jpg" alt="hanabi05" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi06.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi06.jpg" alt="hanabi06" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi07.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi07.jpg" alt="hanabi07" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi08.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi08.jpg" alt="hanabi08" />
+              </a>
+            </li>
+            <li>
+              <a href="images/hanabi09.jpg" data-lightbox="hanabi">
+                <img src="images/hanabi09.jpg" alt="hanabi09" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <h2 class="section-title">News</h2>
+        <p class="section-subtitle">お知らせ</p>
+
+        <div class="news-list">
+          <article class="news-item">
+            <span class="news-date">2026.06.19</span>
+            <p>課題制作発表を開始しました。</p>
+          </article>
+
+          <article class="news-item">
+            <span class="news-date">2026.06.17</span>
+            <p>チケット販売を開始しました。</p>
+          </article>
+
+          <article class="news-item">
+            <span class="news-date">2026.06.11</span>
+            <p>出店応募の受付を開始しました。</p>
+          </article>
+
+          <article class="news-item">
+            <span class="news-date">2026.06.06</span>
+            <p>協賛企業の募集を開始しました。</p>
+          </article>
+        </div>
+      </section>
+      <!-- プログラム -->
+      <section id="program" class="section dark-section">
+        <h2 class="section-title">Program</h2>
+        <p class="section-subtitle">イベントプログラム</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="time">10:00～</span>
+            <p>開場</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time">11:00～11:30</span>
+            <p>漫才</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time">12:00～12:30</span>
+            <p>大道芸</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time">13:00～13:30</span>
+            <p>ヒーローショー</p>
+          </div>
+          <div class="timeline-item">
+            <span class="time">19:00～20:00</span>
+            <p>花火打ち上げ</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ステージイベント -->
+      <section id="stage" class="section">
+        <h2 class="section-title">Stage Event</h2>
+        <p class="section-subtitle">ステージイベント内容</p>
+
+        <div class="card-area">
+          <div class="card">
+            <h3>漫才</h3>
+            <p>11:00~11:30</p>
+            <p>星空のディスタンス</p>
+            <br />
+            <p>会場を笑顔で包み込む、家族で楽しめる漫才ステージです。</p>
+          </div>
+
+          <div class="card">
+            <h3>大道芸</h3>
+            <p>12:00~12:30</p>
+            <p>KAZU</p>
+            <br />
+            <p>
+              ジャグリングやバランス芸など、目の前で楽しめるパフォーマンスです。
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>ヒーローショー</h3>
+            <p>13:00~13:30</p>
+            <p>超戦士ブレイブレンジャー</p>
+            <br />
+            <p>
+              迫力あるアクションと応援で盛り上がる、お子様にも人気のステージです。
+            </p>
+          </div>
+        </div>
+        <div class="page-second">
+          <a href="html/stage-intro.html"> 【 出演者の詳しい紹介はこちら 】 </a>
+        </div>
+      </section>
+
+      <!-- 出店 -->
+      <section id="shop" class="section dark-section">
+        <h2 class="section-title">Food & shops</h2>
+        <p class="section-subtitle">出店内容</p>
+
+        <div class="shop-list">
+          <div class="shop-top-card">
+            <a href="images/yakisoba.jpg" data-lightbox="shop">
+              <img src="images/yakisoba.jpg" alt="焼きそば" />
+            </a>
+            <div class="shop-top-text">
+              <h3>星空焼きそば本舗</h3>
+              <p class="shop-recommend">おすすめ：特製ソース焼きそば</p>
+              <p>香ばしいソースの香りが広がる、お祭り定番の一品です。</p>
+            </div>
+          </div>
+          <div class="shop-top-card">
+            <a href="images/takoyaki.jpg" data-lightbox="shop">
+              <img src="images/takoyaki.jpg" alt="たこ焼き" />
+            </a>
+            <div class="shop-top-text">
+              <h3>たこまる屋</h3>
+              <p class="shop-recommend">おすすめ：ふわトロたこ焼き</p>
+              <p>外はふんわり、中はとろっとした人気のたこ焼きです。</p>
+            </div>
+          </div>
+          <div class="shop-top-card">
+            <a href="images/karage.jpg" data-lightbox="shop">
+              <img src="images/karage.jpg" alt="唐揚げ" />
+            </a>
+            <div class="shop-top-text">
+              <h3>からあげ月乃や</h3>
+              <p class="shop-recommend">おすすめ：星空からあげ</p>
+              <p>食べ歩きにぴったりな、ジューシーな唐揚げです。</p>
+            </div>
+          </div>
+          <div class="shop-top-card">
+            <a href="images/kakigori.jpg" data-lightbox="shop">
+              <img src="images/kakigori.jpg" alt="かき氷" />
+            </a>
+            <div class="shop-top-text">
+              <h3>ひんやり氷菓堂</h3>
+              <p class="shop-recommend">おすすめ：星空ブルーかき氷</p>
+              <p>花火の前に楽しみたい、夏らしい冷たいスイーツです。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 会場マップ -->
+      <section id="map" class="section">
+        <h2 class="section-title">Map</h2>
+        <p class="section-subtitle">会場内マップ</p>
+
+        <div class="map-box">
+          <a href="images/map.jpg" data-lightbox="map">
+            <img src="images/map.jpg" alt="会場マップ" />
+          </a>
+          <p class="map-note">
+            ※有料観覧エリアのイスは運営側が設置済みです。イスの持ち込みはできません。
+            無料観覧エリアではシートの持ち込み可能です。
+          </p>
+        </div>
+      </section>
+
+      <!-- アクセス -->
+      <section id="access" class="section dark-section">
+        <h2 class="section-title">Access</h2>
+        <p class="section-subtitle">アクセス方法</p>
+
+        <div class="access-box">
+          <p>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            住所：星空町１－１ 星空公園
+          </p>
+          <p>
+            <i class="fa-solid fa-train" aria-hidden="true"></i>
+            最寄り駅：星空駅から徒歩5分
+          </p>
+          <p>
+            <i class="fa-solid fa-car" aria-hidden="true"></i>
+            駐車場：混雑が予想されるため、公共交通機関をご利用ください。
+          </p>
+          <div class="access-button">
+            <p>
+              <a href="html/access.html">【 詳しいアクセス方法はこちら 】</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ -->
+      <section id="faq" class="section">
+        <h2 class="section-title">FAQ</h2>
+        <p class="section-subtitle">よくある質問</p>
+
+        <div class="faq-item">
+          <h3>Q. 雨天の場合は決行されますか？</h3>
+          <p>A. 小雨決行ですが、荒天の場合は中止となる場合があります。</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Q. 入場料はかかりますか？</h3>
+          <p>A. 入場料は無料です。一部出店や観覧席は有料です。</p>
+        </div>
+
+        <div class="faq-item">
+          <h3>Q. 会場内で飲食はできますか？</h3>
+          <p>A. はい。飲食スペースをご用意しています。</p>
+        </div>
+      </section>
+
+      <!-- 次のアクション -->
+      <section class="section dark-section">
+        <h2 class="section-title">Next Action</h2>
+        <p class="section-subtitle">目的に合わせて次のページに進む</p>
+        <div class="card-area">
+          <div class="card">
+            <h3>
+              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+              協賛をご検討の方
+            </h3>
+            <p>
+              協賛のメリットや掲載イメージ、プラン内容をご確認いただけます。
+            </p>
+            <div class="page-second">
+              <a class="kyousan" href="html/sponsor.html"
+                >【 協賛応募ページへ 】</a
+              >
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>
+              <i class="fa-solid fa-store" aria-hidden="true"></i>
+              出店をご希望の方
+            </h3>
+            <p>出店カテゴリ、出店料、注意事項をご確認いただけます。</p>
+            <div class="page-second">
+              <a href="html/demise.html">【 出店応募ページへ 】</a>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3>
+              <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+              観覧席をご希望の方へ
+            </h3>
+            <p>有料観覧席のチケット内容や観覧席マップをご確認いただけます。</p>
+            <div class="page-second">
+              <a href="html/ticket.html">【 チケット購入ページへ 】</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 星空花火フェスティバル 2026</p>
+      <p class="footer-note">
+        このサイトはWebサイト制作課題のために制作した、架空イベントサイトです。
+      </p>
+      <p class="footer-presen">
+        <a href="html/presentation.html">制作紹介ページを見る</a>
+      </p>
+    </footer>
+
+    <!-- ページトップボタン -->
+    <a href="#top" class="page-top-button" aria-label="ページトップへ戻る">
+      <img src="images/page-top.png" alt="" />
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- slick jQuery -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- LightBox -->
+    <script src="js/lightbox.js"></script>
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

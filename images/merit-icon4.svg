@@ -1,0 +1,32 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+
+  <!-- 外側の円 -->
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#d4af37" stroke-width="6"></circle>
+
+  <!-- 提灯上部 -->
+  <rect x="101" y="56" width="54" height="18" rx="4" fill="none" stroke="#d4af37" stroke-width="6"></rect>
+
+  <!-- 提灯本体（全体を上に移動して中央寄せ） -->
+  <path d="M128 74
+       C93 74 74 96 74 128
+       C74 160 95 182 128 182
+       C161 182 182 160 182 128
+       C182 96 163 74 128 74Z" fill="none" stroke="#d4af37" stroke-width="6" stroke-linejoin="round"></path>
+
+  <!-- 左の縦ライン -->
+  <path d="M103 80
+       C90 102 90 154 103 176" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+  <!-- 中央の縦ライン -->
+  <path d="M128 78
+       C118 102 118 154 128 182" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+  <!-- 右の縦ライン -->
+  <path d="M153 80
+       C166 102 166 154 153 176" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+  <!-- 提灯下部 -->
+  <rect x="101" y="182" width="54" height="18" rx="4" fill="none" stroke="#d4af37" stroke-width="6"></rect>
+
+</svg>

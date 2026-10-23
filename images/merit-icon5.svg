@@ -1,0 +1,61 @@
+<!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" fill="none">
+
+  <!-- 外円 -->
+  <circle cx="128" cy="128" r="110" fill="none" stroke="#d4af37" stroke-width="6"></circle>
+
+  <!-- 中央の家 -->
+  <path d="M128 98
+       L95 128
+       H106
+       V165
+       H150
+       V128
+       H161
+       Z" fill="none" stroke="#d4af37" stroke-width="6" stroke-linejoin="round"></path>
+
+  <!-- 家のドア -->
+  <path d="M120 165
+       V143
+       C120 136 124 132 128 132
+       C132 132 136 136 136 143
+       V165" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 家の窓 -->
+  <rect x="121" y="115" width="14" height="14" fill="none" stroke="#d4af37" stroke-width="6"></rect>
+
+  <!-- 上の人 -->
+  <circle cx="128" cy="62" r="14" fill="none" stroke="#d4af37" stroke-width="6"></circle>
+  <path d="M106 108
+       V96
+       C106 82 116 74 128 74
+       C140 74 150 82 150 96
+       V108" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 左下の人 -->
+  <circle cx="71" cy="150" r="14" fill="none" stroke="#d4af37" stroke-width="6"></circle>
+  <path d="M49 196
+       V184
+       C49 170 59 162 71 162
+       C83 162 93 170 93 184
+       V196" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 右下の人 -->
+  <circle cx="185" cy="150" r="14" fill="none" stroke="#d4af37" stroke-width="6"></circle>
+  <path d="M163 196
+       V184
+       C163 170 173 162 185 162
+       C197 162 207 170 207 184
+       V196" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- つながりの弧 -->
+  <path d="M70 126
+       C77 102 96 87 112 82" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+  <path d="M186 126
+       C179 102 160 87 144 82" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+  <path d="M95 200
+       C110 210 146 210 161 200" fill="none" stroke="#d4af37" stroke-width="6" stroke-linecap="round"></path>
+
+</svg>

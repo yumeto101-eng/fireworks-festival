@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="../slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css" />
+
+    <!-- 架空サイト -->
+    <meta name="robots" content="nofollow, noindex" />
+    <meta
+      name="description"
+      content="このサイトはWebサイト制作課題のために制作した、架空イベントの公式サイト風デモサイトです。"
+    />
+    <title>出店募集｜課題制作用 架空イベントサイト</title>
+
+    <!-- CSSファイルの読み込み -->
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body id="top">
+    <!-- ヘッダー -->
+    <header class="header">
+      <div class="header-inner">
+        <h1 class="logo">
+          <a
+            href="../index.html"
+            aria-label="星空花火フェスティバル2026 トップページ"
+          >
+            <span class="logo-symbol" aria-hidden="true">✦</span>
+
+            <span class="logo-title">
+              <span class="logo-main">星空花火</span>
+              <span class="logo-sub">フェスティバル</span>
+            </span>
+
+            <span class="logo-year">2026</span>
+          </a>
+        </h1>
+        <ul class="pc-nav" aria-label="主要メニュー">
+          <li>
+            <a href="sponsor.html">
+              <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+              <span>協賛</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="ticket.html">
+              <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+              <span>チケット</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="demise.html">
+              <i class="fa-solid fa-store" aria-hidden="true"></i>
+              <span>出店</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <button
+      class="hamburger js-hamburger"
+      type="button"
+      aria-label="メニューを開く"
+      aria-expanded="false"
+      aria-controls="global-nav"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav id="global-nav" class="nav js-nav" aria-label="メインメニュー">
+      <p class="nav-heading">QUICK LINKS</p>
+
+      <ul class="nav-contact">
+        <li class="nav-home">
+          <a href="../index.html">
+            <i class="fa-solid fa-house" aria-hidden="true"></i>
+            <span>トップページ</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="sponsor.html">
+            <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+            <span>協賛</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="ticket.html">
+            <i class="fa-solid fa-ticket" aria-hidden="true"></i>
+            <span>チケット</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="contact.html">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <span>お問い合わせ</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="access.html">
+            <i class="fa-solid fa-map-location-dot" aria-hidden="true"></i>
+            <span>アクセス</span>
+          </a>
+        </li>
+      </ul>
+
+      <p class="nav-heading">SHOPS INFO</p>
+
+      <ul class="nav-event">
+        <li><a href="#merit">出店のメリット</a></li>
+        <li><a href="#category">出店カテゴリ</a></li>
+        <li><a href="#plan">出店料・注意事項</a></li>
+        <li><a href="#form">応募フォーム</a></li>
+        <li><a href="../index.html">【トップへ戻る】</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="page-second-hero">
+        <p class="hero-subtitle">Merch Page</p>
+        <h2>出店応募ページ</h2>
+        <p>地域最大級イベントに参加し、地域とのつながりを深めましょう</p>
+        <div class="event-info">
+          <p>開催日時：2026年8月15日(土)10:00～20:00</p>
+          <p>開催場所：星空公園 特設会場</p>
+        </div>
+      </section>
+
+      <section id="merit" class="section">
+        <div class="merit-h2">
+          <img src="../images/merit-h2-icon1.svg" />
+          <h2>出店のメリット</h2>
+          <img src="../images/merit-h2-icon2.svg" />
+        </div>
+
+        <div class="merit-contents">
+          <div class="merit-card">
+            <img
+              class="merit-icon"
+              src="../images/merit-icon1.svg"
+              alt="メガホン"
+            />
+            <div class="merit-text">
+              <h3>来場者へのPR</h3>
+              <p>
+                多くの来場者へ直接アピールできます。新規顧客の獲得や認知拡大に！
+              </p>
+            </div>
+          </div>
+          <div class="merit-card">
+            <img
+              class="merit-icon"
+              src="../images/merit-icon4.svg"
+              alt="提灯"
+            />
+            <div class="merit-text">
+              <h3>夏祭りイベントへの参加</h3>
+              <p>地域最大級の花火イベントを一緒に盛り上げることができます。</p>
+            </div>
+          </div>
+          <div class="merit-card">
+            <img
+              class="merit-icon"
+              src="../images/merit-icon5.svg"
+              alt="人の輪"
+            />
+            <div class="merit-text">
+              <h3>地域とのつながり</h3>
+              <p>地域住民や他出店者との交流で、新たなつながりが生まれます。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="category" class="section dark-section">
+        <div class="merit-h2">
+          <img src="../images/merit-h2-icon1.svg" />
+          <h2>出店カテゴリ</h2>
+          <img src="../images/merit-h2-icon2.svg" />
+        </div>
+        <div class="flex-box">
+          <div class="shop-card">
+            <img src="../images/demise-icon1.png" alt="ナイフ＆フォーク" />
+            <div class="shop-text">
+              <h3>フード</h3>
+              <p>ご当地グルメや軽食など</p>
+            </div>
+          </div>
+          <div class="shop-card">
+            <img src="../images/demise-icon2.png" alt="カップケーキ" />
+            <div class="shop-text">
+              <h3>スイーツ</h3>
+              <p>スイーツ・かき氷・フルーツ飴など</p>
+            </div>
+          </div>
+          <div class="shop-card">
+            <img src="../images/demise-icon3.png" alt="ドリンク" />
+            <div class="shop-text">
+              <h3>ドリンク</h3>
+              <p>ソフトドリンク・アルコールなど</p>
+            </div>
+          </div>
+          <div class="shop-card">
+            <img src="../images/demise-icon4.png" alt="ブース" />
+            <div class="shop-text">
+              <h3>体験ブース</h3>
+              <p>ワークショップやボールすくいなど</p>
+            </div>
+          </div>
+          <div class="shop-card">
+            <img src="../images/demise-icon5.png" alt="手提げバック" />
+            <div class="shop-text">
+              <h3>物販</h3>
+              <p>雑貨・アクセサリーなど</p>
+            </div>
+          </div>
+        </div>
+        <p>※上記以外のカテゴリをご希望の場合は、お問い合わせください。</p>
+      </section>
+
+      <section id="plan" class="section">
+        <div class="merit-h2">
+          <img src="../images/merit-h2-icon1.svg" />
+          <h2>出店料・注意事項</h2>
+          <img src="../images/merit-h2-icon2.svg" />
+        </div>
+        <table class="shop-plan">
+          <tr>
+            <th>ブースサイズ</th>
+            <th>出店料</th>
+          </tr>
+          <tr>
+            <th>3m × 3m</th>
+            <td>10,000円</td>
+          </tr>
+          <tr>
+            <th>3m × 6m</th>
+            <td>18,000円</td>
+          </tr>
+          <tr>
+            <th>6m × 6m</th>
+            <td>30,000円</td>
+          </tr>
+        </table>
+        <ul class="caution">
+          <li>電源(100V)は1ブースにつき１口まで無料でご利用いただけます。</li>
+          <li>発電機の持ち込みは事前申請が必要です。</li>
+          <li>火気使用の際は消火器の設置が必須です。</li>
+          <li>ゴミは各自でお持ち帰りをお願いいたします。</li>
+          <li>応募多数の場合は、内容を審査のうえ決定いたします。</li>
+          <li>雨天決行／荒天中止（中止の場合は出店料は返金いたしません）</li>
+        </ul>
+      </section>
+
+      <section id="form" class="form-section">
+        <div class="form-container">
+          <!-- 見出し -->
+          <div class="form-title">
+            <p>SHOP APPLICATION</p>
+            <h2>出店応募フォーム</h2>
+            <p>必要事項をご入力のうえ、送信ボタンを押してください。</p>
+          </div>
+
+          <!-- フォーム -->
+          <form action="error-page.html" method="get">
+            <!-- 基本情報 -->
+            <div class="form-block">
+              <h3>基本情報</h3>
+
+              <div class="form-grid">
+                <div class="form-item">
+                  <label for="company">店舗名・団体名</label>
+                  <input type="text" id="company" name="company" />
+                </div>
+
+                <div class="form-item">
+                  <label for="person">担当者名</label>
+                  <input type="text" id="person" name="person" />
+                </div>
+
+                <div class="form-item">
+                  <label for="email">メールアドレス</label>
+                  <input type="email" id="email" name="email" />
+                </div>
+
+                <div class="form-item">
+                  <label for="tel">電話番号</label>
+                  <input type="tel" id="tel" name="tel" />
+                </div>
+              </div>
+            </div>
+
+            <!-- 出店内容 -->
+            <div class="form-block">
+              <h3>出店内容</h3>
+
+              <div class="form-item">
+                <label for="shop-plan">ブースサイズ</label>
+
+                <select id="shop-plan" name="shop-plan">
+                  <option value="">選択してください</option>
+                  <option value="3m3m">3m×3m：10,000円</option>
+                  <option value="3m6m">3m×6m：18,000円</option>
+                  <option value="6m6m">6m×6m：30,000円</option>
+                </select>
+              </div>
+
+              <div class="form-item">
+                <label for="shop-category">出店カテゴリ</label>
+
+                <select id="shop-category" name="shop-category">
+                  <option value="">選択してください</option>
+                  <option value="food">フード</option>
+                  <option value="sweets">スイーツ</option>
+                  <option value="drink">ドリンク</option>
+                  <option value="experience">体験ブース</option>
+                  <option value="merch">物販</option>
+                </select>
+              </div>
+              <div class="form-item">
+                <label for="shop-item"
+                  >具体的な内容（主な取扱商品・サービス）</label
+                >
+                <textarea id="shop-item" name="shop-item" rows="3"></textarea>
+              </div>
+              <div class="form-item">
+                <label for="shop-bring">持ち込み機材・電源の有無</label>
+                <textarea id="shop-bring" name="shop-bring" rows="3"></textarea>
+              </div>
+            </div>
+
+            <!-- お問い合わせ -->
+            <div class="form-block">
+              <h3>お問い合わせ内容</h3>
+
+              <div class="form-item">
+                <label for="message">ご質問・ご要望</label>
+                <textarea id="message" name="message" rows="7"></textarea>
+              </div>
+            </div>
+
+            <!-- 同意 -->
+            <div class="form-agreement">
+              <label>
+                <input type="checkbox" name="agreement" />
+                個人情報の取り扱いに同意する
+              </label>
+            </div>
+
+            <!-- 送信ボタン -->
+            <div class="form-submit">
+              <button type="submit">出店を申し込む</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+      <p>&copy; 星空花火フェスティバル 2026</p>
+      <p class="footer-note">
+        このサイトはWebサイト制作課題のために制作した、架空イベントサイトです。
+      </p>
+      <p class="footer-presen">
+        <a href="presentation.html">制作紹介ページを見る</a>
+      </p>
+    </footer>
+
+    <!-- ページトップボタン -->
+    <a href="#top" class="page-top-button" aria-label="ページトップへ戻る">
+      <img src="../images/page-top.png" alt="" />
+    </a>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- slick jQuery -->
+    <script type="text/javascript" src="../slick/slick.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+  </body>
+</html>

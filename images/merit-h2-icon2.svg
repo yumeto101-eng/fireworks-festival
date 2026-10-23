@@ -1,0 +1,12 @@
+<svg class="title-star-right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 40" width="180" height="40" fill="none">
+  <!-- 流れ星のライン -->
+  <path d="M10 20 C50 8, 90 8, 130 20 C145 25, 160 25, 172 20" stroke="#d4af37" stroke-width="2" stroke-linecap="round"></path>
+
+  <!-- メインの星 -->
+  <path d="M35 10 L38 17 L46 20 L38 23 L35 30 L32 23 L24 20 L32 17 Z" fill="#d4af37"></path>
+
+  <!-- 小さい星 -->
+  <path d="M85 7 L87 11 L91 13 L87 15 L85 19 L83 15 L79 13 L83 11 Z" fill="#d4af37"></path>
+
+  <path d="M145 22 L146.5 25 L150 26.5 L146.5 28 L145 31 L143.5 28 L140 26.5 L143.5 25 Z" fill="#d4af37"></path>
+</svg>

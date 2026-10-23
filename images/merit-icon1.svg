@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <!-- 外枠の円 -->
+  <circle cx="64" cy="64" r="52" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- メガホン本体 -->
+  <path d="M44 58 L72 49 V79 L44 70 Z" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"></path>
+
+  <!-- メガホンの先端 -->
+  <path d="M72 52 L89 44 V84 L72 76" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"></path>
+
+  <!-- 持ち手 -->
+  <path d="M47 70 L53 86" stroke="#d4af37" stroke-width="3" stroke-linecap="round"></path>
+
+  <!-- 持ち手の下 -->
+  <path d="M53 86 L61 83" stroke="#d4af37" stroke-width="3" stroke-linecap="round"></path>
+
+  <!-- 音の線 -->
+  <path d="M94 54 C100 58, 100 70, 94 74" stroke="#d4af37" stroke-width="3" stroke-linecap="round"></path>
+
+  <path d="M101 48 C111 56, 111 72, 101 80" stroke="#d4af37" stroke-width="3" stroke-linecap="round"></path>
+
+  <!-- 左側の支え -->
+  <path d="M44 60 H35 C31 60 28 63 28 67 C28 71 31 74 35 74 H44" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>

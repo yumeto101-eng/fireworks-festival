@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <!-- 外枠の円 -->
+  <circle cx="64" cy="64" r="52" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- ハート -->
+  <path d="M64 40
+           C64 34, 58 30, 52 30
+           C45 30, 40 35, 40 42
+           C40 56, 54 64, 64 72
+           C74 64, 88 56, 88 42
+           C88 35, 83 30, 76 30
+           C70 30, 64 34, 64 40Z" stroke="#d4af37" stroke-width="3" stroke-linejoin="round"></path>
+
+  <!-- 左の手 -->
+  <path d="M32 78
+           C36 70, 44 66, 52 66
+           H58
+           C60 66, 61 67, 61 69
+           C61 71, 60 72, 58 72
+           H51
+           C46 72, 42 74, 39 78
+           L35 84" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 右の手 -->
+  <path d="M96 78
+           C92 70, 84 66, 76 66
+           H70
+           C68 66, 67 67, 67 69
+           C67 71, 68 72, 70 72
+           H77
+           C82 72, 86 74, 89 78
+           L93 84" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 左下の手のひら -->
+  <path d="M35 84
+           C39 89, 45 92, 52 92
+           H60" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 右下の手のひら -->
+  <path d="M93 84
+           C89 89, 83 92, 76 92
+           H68" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>

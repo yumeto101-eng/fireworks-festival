@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" fill="none">
+  <!-- 外枠の円 -->
+  <circle cx="64" cy="64" r="52" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- 中央の人物（頭） -->
+  <circle cx="64" cy="48" r="10" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- 左の人物（頭） -->
+  <circle cx="42" cy="56" r="8" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- 右の人物（頭） -->
+  <circle cx="86" cy="56" r="8" stroke="#d4af37" stroke-width="3"></circle>
+
+  <!-- 中央の人物（体） -->
+  <path d="M48 82
+           C48 72, 55 66, 64 66
+           C73 66, 80 72, 80 82" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 左の人物（体） -->
+  <path d="M30 82
+           C30 75, 35 70, 42 70
+           C49 70, 54 75, 54 82" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- 右の人物（体） -->
+  <path d="M74 82
+           C74 75, 79 70, 86 70
+           C93 70, 98 75, 98 82" stroke="#d4af37" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
